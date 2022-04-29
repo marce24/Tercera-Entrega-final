@@ -1,0 +1,33 @@
+/* Efecto en Cards de los productos */
+.card{
+    transition: all 0.5s ease;
+}
+.card:hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Producto solo, efecto imagen */
+
+.product img {
+    transition: all 0.5s ease;
+  }
+  .product img:hover {
+    transform: scale(1.1);
+  }
+
+
+  .map-container-2{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-2 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
